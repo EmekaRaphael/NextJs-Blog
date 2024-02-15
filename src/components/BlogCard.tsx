@@ -14,6 +14,7 @@ const BlogCard = ({blog}: any) => {
         <Link href={`/blog/${blog.id}`}>
             <div className="relative w-full h-1" style={{ paddingBottom: "100%" }}>
                 <Image 
+                    priority
                     layout="fill" 
                     objectFit='cover' 
                     src={imageUrl} alt={""} 

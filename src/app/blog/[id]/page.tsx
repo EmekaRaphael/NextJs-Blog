@@ -29,8 +29,8 @@ const page = async ({params}: any) => {
         <Link href='/'>{"< Back"}</Link>
         <div className='relative w-full h-96 overflow-hidden rounded-lg mt-5'>
             <Image 
+                priority
                 layout="fill" 
-                objectFit='cover' 
                 src={imageUrl} 
                 alt={""}  
             />

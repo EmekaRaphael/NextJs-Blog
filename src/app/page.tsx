@@ -1,6 +1,6 @@
 import Blogs from "@/components/Blogs";
 import Categories from "@/components/Categories";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 async function fetchCategories() {
   const options = {
